@@ -1,0 +1,376 @@
+@charset "utf-8";
+
+
+@media (max-width:999px) {
+ /*헤더*/
+ header {width:100%; height:auto;  position: absolute;}
+ header > #box {width:100%; height:50px; margin:0 auto; display:flex; justify-content: space-between; align-items: center; padding: 20px; box-sizing: border-box;}
+ header > #box > p > span {font-size: 13px; color:#fff;}
+ header > #box > p {font-size: 14px; color: #ccc;}
+ header > #box > ul {display: flex;}
+ header > #box > ul > li {font-size: 14px; margin:0px 10px 0px 0px; color: #ccc;}
+ header > #box > ul > li > a > img {width:12px; height:12px; color:#fff;}
+ nav {width:100%; height:80px; background-color: #00000066; margin:0 auto; border-radius: 2px; display: flex; justify-content: space-between; align-items: center; padding: 20px; box-sizing: border-box; opacity:0.9;}
+ nav ul {display: flex; flex-flow:column wrap; align-items: center;}
+.small {width: 100%; height: auto; display: flex; flex-flow:column wrap; background-color: #00000066; opacity:0.9;}
+.small > ul > li {line-height: 35px; padding:0px 0px 0px 20px;}
+.small > ul > .a > a {color: #e52b34;}
+.small > ul > li > a {color: #fff;}
+.small > ul > li:hover {background-color: #ccc;  transition: 0.2s ease;}
+.small > ul > li > a:hover {color: #e52b34;  transition: 0.2s ease; background-color: #ccc; display: block;}
+.small > .a {color: #e52b34;}
+ nav > a > h3 {color: #e52b34; font-size:20px; opacity:1;}
+ nav > a > h3 > span {font-size: 20px; color: #fff; }
+ nav ul {color: #fff; opacity:1.0;}
+ nav ul > li > a {margin:0px 0px 0px 50px; color:#fff; opacity:1.0; font-size: 13px;}
+ nav ul > li > a:hover {color: #e52b34; transition: 0.2s ease;}
+ nav ul > .a > a {color: #e52b34;}
+ nav ul {display: none;}
+ nav > .asd {color: #666;}
+ nav > .asd:hover {cursor: pointer;}
+}
+
+
+
+
+
+@media (min-width:1000px) {
+       /*헤더*/
+       header {width:100%; height:auto;  position: absolute;}
+       header > #box {width:70%; height:50px; margin:0 auto; display:flex; justify-content: space-between; align-items: center; padding: 20px; box-sizing: border-box;}
+       header > #box > p > span {font-size: 13px; color:#fff;}
+       header > #box > p {font-size: 14px; color: #ccc;}
+       header > #box > ul {display: flex;}
+       header > #box > ul > li {font-size: 14px; margin:0px 10px 0px 0px; color: #ccc;}
+       header > #box > ul > li > a > img {width:12px; height:12px; color:#fff;}
+       nav {width:70%; height:80px; background-color: #00000066; margin:0 auto; border-radius: 2px; display: flex; justify-content: space-between; align-items: center; padding: 20px; box-sizing: border-box; opacity:0.9;}
+       nav ul {display: flex; align-items: center;}
+       nav > a > h3 {color: #e52b34; font-size:20px; opacity:1;}
+       nav > a > h3 > span {font-size: 20px; color: #fff; }
+       nav ul {color: #fff; opacity:1.0;}
+       nav ul > li > a {margin:0px 0px 0px 20px; color:#fff; opacity:1.0; font-size: 13px;}
+       nav ul > li > a:hover {color: #e52b34; transition: 0.2s ease;}
+       nav ul > .a > a {color: #e52b34;}
+       nav > .asd {display: none;}
+       .small {display: none;}
+      }
+
+
+      
+
+
+
+
+      @media (min-width:1150px) {
+       /*헤더*/
+       header {width:100%; height:auto;  position: absolute;}
+       header > #box {width:70%; height:50px; margin:0 auto; display:flex; justify-content: space-between; align-items: center; padding: 20px; box-sizing: border-box;}
+       header > #box > p > span {font-size: 13px; color:#fff;}
+       header > #box > p {font-size: 14px; color: #ccc;}
+       header > #box > ul {display: flex;}
+       header > #box > ul > li {font-size: 14px; margin:0px 10px 0px 0px; color: #ccc;}
+       header > #box > ul > li > a > img {width:12px; height:12px; color:#fff;}
+       nav {width:70%; height:80px; background-color: #00000066; margin:0 auto; border-radius: 2px; display: flex; justify-content: space-between; align-items: center; padding: 20px; box-sizing: border-box; opacity:0.9;}
+       nav ul {display: flex; align-items: center;}
+       nav > a > h3 {color: #e52b34; font-size:20px; opacity:1;}
+       nav > a > h3 > span {font-size: 20px; color: #fff; }
+       nav ul {color: #fff; opacity:1.0;}
+       nav ul > li > a {margin:0px 0px 0px 35px; color:#fff; opacity:1.0; font-size: 13px;}
+       nav ul > li > a:hover {color: #e52b34; transition: 0.2s ease;}
+       nav ul > .a > a {color: #e52b34;}
+       nav > .asd {display: none;}
+       .small {display: none;}
+      }
+
+
+
+      @media (min-width:1250px) {
+       /*헤더*/
+       header {width:100%; height:auto;  position: absolute;}
+       header > #box {width:70%; height:50px; margin:0 auto; display:flex; justify-content: space-between; align-items: center; padding: 20px; box-sizing: border-box;}
+       header > #box > p > span {font-size: 13px; color:#fff;}
+       header > #box > p {font-size: 14px; color: #ccc;}
+       header > #box > ul {display: flex;}
+       header > #box > ul > li {font-size: 14px; margin:0px 10px 0px 0px; color: #ccc;}
+       header > #box > ul > li > a > img {width:12px; height:12px; color:#fff;}
+       nav {width:70%; height:80px; background-color: #00000066; margin:0 auto; border-radius: 2px; display: flex; justify-content: space-between; align-items: center; padding: 20px; box-sizing: border-box; opacity:1;}
+       nav ul {display: flex; align-items: center;}
+       nav > a > h3 {color: #e52b34; font-size:20px; opacity:1;}
+       nav > a > h3 > span {font-size: 20px; color: #fff; }
+       nav ul {color: #fff; opacity:1.0;}
+       nav ul > li > a {margin:0px 0px 0px 50px; color:#fff; opacity:1.0; font-size: 13px;}
+       nav ul > li > a:hover {color: #e52b34; transition: 0.2s ease;}
+       nav ul > .a > a {color: #e52b34;}
+       nav > .asd {display: none;}
+       .small {display: none;}
+      }
+
+
+      
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+        @media (max-width:1099px) {
+              /*footer*/
+              footer {width:100%; height:500px; background-color: #1a1a1a; margin:0 auto;}
+              footer > .end {width:900px; height: 85%; background-color: #1a1a1a; margin:0 auto; display: flex; justify-content:space-evenly; align-items: center; padding: 30px 0px 0px 0px; box-sizing: border-box;}
+              footer > .end > .box4,.box5,.box6,.box7 { width: 24.6%; height: 350px;}
+              footer > .end > .box4,.box5,.box7 {display: flex; flex-flow:column wrap;}
+      
+      
+              footer > .end > .box4 > h3 {color: #fff; font-size: 20px; margin: 0px 0px 40px;}
+              footer > .end > .box4 > p {line-height: 25px; color: #ccc;}
+              footer > .end > .box5 > h3 {color: #fff; font-size: 20px; margin: 0px 0px 40px;}
+              footer > .end > .box6 > h3 {color: #fff; font-size: 20px; margin: 0px 0px 40px;}
+              footer > .end > .box7 > h3 {color: #fff; font-size: 20px; margin: 0px 0px 40px;}
+              footer > .end > .box7 > p {line-height: 25px; color: #ccc; margin: 0px 0px 23px;}
+              footer > .end > .box7 > .btn1 {width: 240px; height: 56px; background-color: #363636; border:none; border-radius: 3px; margin: 0 0 10px; color:#ccc; font-size: 18px;}
+              footer > .end > .box7 > .btn2 {width: 240px; height: 56px; background-color:#e52b34; border:none; border-radius: 3px; color:#fff; font-size: 18px;}
+      
+      
+              footer > .end > .box5 > table { margin:0px 0px 0px 0px;}
+              footer > .end > .box5 > table th { line-height: 30px; float: left; color: #ccc;}
+              footer > .end > .box5 > table td { float:right; line-height: 30px; color: #ccc;}
+      
+              footer > .end > .box4 > ul > li {width: 40px; height: 40px; background-color: #e52b34; float: left; margin: 40px 7px 0px 0px; border-radius: 40px; display: flex; justify-content: center; align-items: center;}
+              footer > .end > .box4 > ul > li > a > img {width: 19px; height: 20px; }
+      
+              footer > .end > .box6 > .back1,.back2,.back3 {width:70px; height: 110px; float: left; margin:0px 0px 0px 0px;}
+              footer > .end > .box6 >.back4,.back5,.back6 {width:70px; height: 110px; float: left;}
+      
+             footer > .end > .box6 > .back1 {background-image: url("https://preview.colorlib.com/theme/tasteit/images/insta-1.jpg.webp"); background-position:center;
+             background-size: cover;}
+             footer > .end > .box6 > .back2 {background-image: url("https://preview.colorlib.com/theme/tasteit/images/insta-2.jpg.webp"); background-position:center;
+             background-size: cover;}
+             footer > .end > .box6 > .back3 {background-image: url("https://preview.colorlib.com/theme/tasteit/images/insta-3.jpg.webp"); background-position:center;
+             background-size: cover;}
+             footer > .end > .box6 > .back4 {background-image: url("https://preview.colorlib.com/theme/tasteit/images/insta-4.jpg.webp"); background-position:center;
+             background-size: cover;}
+             footer > .end > .box6 > .back5 {background-image: url("https://preview.colorlib.com/theme/tasteit/images/insta-5.jpg.webp"); background-position:center;
+             background-size: cover;}
+             footer > .end > .box6 > .back6 {background-image: url("https://preview.colorlib.com/theme/tasteit/images/insta-6.jpg.webp"); background-position:center;
+             background-size: cover;}
+             
+      
+      
+             footer > .end2 {width:100%; height: 15%; background-color: #e52b34; display: flex; justify-content: center; align-items: center;}
+             footer > .end2 > p {color: #fff;}
+              }
+
+
+
+
+
+
+              @media (max-width:960px) {
+                     /*footer*/
+                     footer {width:100%; height:700px; background-color: #1a1a1a; margin:0 auto;}
+                     footer > .end {width:90%; height: 90%; margin:0 auto; display: flex; flex-flow:row wrap; justify-content:space-evenly; align-items: center; padding: 10px 0px 0px 0px; box-sizing: border-box;}
+                     footer > .end > .box4,.box5,.box6,.box7 { width: 42%; height: 47%;}
+                     footer > .end > .box4,.box5,.box7 {display: flex; flex-flow:column wrap;}
+             
+             
+                     footer > .end > .box4 > h3 {color: #fff; font-size: 20px; margin: 0px 0px 40px;}
+                     footer > .end > .box4 > p {line-height: 25px; color: #ccc;}
+                     footer > .end > .box5 > h3 {color: #fff; font-size: 20px; margin: 0px 0px 40px;}
+                     footer > .end > .box6 > h3 {color: #fff; font-size: 20px; margin: 0px 0px 40px;}
+                     footer > .end > .box7 > h3 {color: #fff; font-size: 20px; margin: 0px 0px 40px;}
+                     footer > .end > .box7 > p {line-height: 25px; color: #ccc; margin: 0px 0px 23px;}
+                     footer > .end > .box7 > .btn1 { height: 56px; background-color: #363636; border:none; border-radius: 3px; margin: 0 0 10px; color:#ccc; font-size: 18px; }
+                     footer > .end > .box7 > .btn2 {height: 56px; background-color:#e52b34; border:none; border-radius: 3px; color:#fff; font-size: 18px;}
+             
+             
+                     footer > .end > .box5 > table { margin:0px 0px 0px 0px;}
+                     footer > .end > .box5 > table th { line-height: 30px; float: left; color: #ccc;}
+                     footer > .end > .box5 > table td { float:right; line-height: 30px; color: #ccc;}
+             
+                     footer > .end > .box4 > ul > li {width: 40px; height: 40px; background-color: #e52b34; float: left; margin: 40px 7px 0px 0px; border-radius: 40px; display: flex; justify-content: center; align-items: center;}
+                     footer > .end > .box4 > ul > li > a > img {width: 19px; height: 20px; }
+             
+                     footer > .end > .box6 > .back1,.back2,.back3 {width:32.2%; height: 110px; float: left; margin:0px 0px 0px 0px;}
+                     footer > .end > .box6 >.back4,.back5,.back6 {width:32.2%; height: 110px; float: left;}
+             
+                    footer > .end > .box6 > .back1 {background-image: url("https://preview.colorlib.com/theme/tasteit/images/insta-1.jpg.webp"); background-position:center;
+                    background-size: cover;}
+                    footer > .end > .box6 > .back2 {background-image: url("https://preview.colorlib.com/theme/tasteit/images/insta-2.jpg.webp"); background-position:center;
+                    background-size: cover;}
+                    footer > .end > .box6 > .back3 {background-image: url("https://preview.colorlib.com/theme/tasteit/images/insta-3.jpg.webp"); background-position:center;
+                    background-size: cover;}
+                    footer > .end > .box6 > .back4 {background-image: url("https://preview.colorlib.com/theme/tasteit/images/insta-4.jpg.webp"); background-position:center;
+                    background-size: cover;}
+                    footer > .end > .box6 > .back5 {background-image: url("https://preview.colorlib.com/theme/tasteit/images/insta-5.jpg.webp"); background-position:center;
+                    background-size: cover;}
+                    footer > .end > .box6 > .back6 {background-image: url("https://preview.colorlib.com/theme/tasteit/images/insta-6.jpg.webp"); background-position:center;
+                    background-size: cover;}
+                    
+             
+             
+                    footer > .end2 {width:100%; height: 15%; background-color: #e52b34; display: flex; justify-content: center; align-items: center;}
+                    footer > .end2 > p {color: #fff;}
+                     }
+
+
+
+
+                     @media (max-width:650px) {
+                            /*footer*/
+                            footer {width:100%; height:auto; background-color: #1a1a1a; margin:0 auto;}
+                            footer > .end {width:90%; height: 90%; margin:0 auto; display: flex; flex-flow:row wrap; justify-content:space-evenly; align-items: center; padding: 10px 0px 0px 0px; box-sizing: border-box;}
+                            footer > .end > .box4,.box5,.box6,.box7 { width: 90%; height: 47%;}
+                            footer > .end > .box4,.box5,.box7 {display: flex; flex-flow:column wrap;}
+                    
+                    
+                            footer > .end > .box4 > h3 {color: #fff; font-size: 20px; margin: 0px 0px 40px;}
+                            footer > .end > .box4 > p {line-height: 25px; color: #ccc;}
+                            footer > .end > .box5 > h3 {color: #fff; font-size: 20px; margin: 0px 0px 40px;}
+                            footer > .end > .box6 > h3 {color: #fff; font-size: 20px; margin: 0px 0px 40px;}
+                            footer > .end > .box7 > h3 {color: #fff; font-size: 20px; margin: 0px 0px 40px;}
+                            footer > .end > .box7 > p {line-height: 25px; color: #ccc; margin: 0px 0px 23px;}
+                            footer > .end > .box7 > .btn1 {height: 56px; background-color: #363636; border:none; border-radius: 3px; margin: 0 0 10px; color:#ccc; font-size: 18px; }
+                            footer > .end > .box7 > .btn2 {height: 56px; background-color:#e52b34; border:none; border-radius: 3px; color:#fff; font-size: 18px;}
+                    
+                    
+                            footer > .end > .box5 > table { margin:0px 0px 0px 0px;}
+                            footer > .end > .box5 > table th { line-height: 30px; float: left; color: #ccc;}
+                            footer > .end > .box5 > table td { float:right; line-height: 30px; color: #ccc;}
+                    
+                            footer > .end > .box4 > ul > li {width: 40px; height: 40px; background-color: #e52b34; float: left; margin: 40px 7px 0px 0px; border-radius: 40px; display: flex; justify-content: center; align-items: center;}
+                            footer > .end > .box4 > ul > li > a > img {width: 19px; height: 20px; }
+                    
+                            footer > .end > .box6 > .back1,.back2,.back3 {width:32.2%; height: 110px; float: left; margin:0px 0px 0px 0px;}
+                            footer > .end > .box6 >.back4,.back5,.back6 {width:32.2%; height: 110px; float: left;}
+                    
+                           footer > .end > .box6 > .back1 {background-image: url("https://preview.colorlib.com/theme/tasteit/images/insta-1.jpg.webp"); background-position:center;
+                           background-size: cover;}
+                           footer > .end > .box6 > .back2 {background-image: url("https://preview.colorlib.com/theme/tasteit/images/insta-2.jpg.webp"); background-position:center;
+                           background-size: cover;}
+                           footer > .end > .box6 > .back3 {background-image: url("https://preview.colorlib.com/theme/tasteit/images/insta-3.jpg.webp"); background-position:center;
+                           background-size: cover;}
+                           footer > .end > .box6 > .back4 {background-image: url("https://preview.colorlib.com/theme/tasteit/images/insta-4.jpg.webp"); background-position:center;
+                           background-size: cover;}
+                           footer > .end > .box6 > .back5 {background-image: url("https://preview.colorlib.com/theme/tasteit/images/insta-5.jpg.webp"); background-position:center;
+                           background-size: cover;}
+                           footer > .end > .box6 > .back6 {background-image: url("https://preview.colorlib.com/theme/tasteit/images/insta-6.jpg.webp"); background-position:center;
+                           background-size: cover;}
+                           
+                    
+                    
+                           footer > .end2 {width:100%; height: 15%; background-color: #e52b34; display: flex; justify-content: center; align-items: center;}
+                           footer > .end2 > p {color: #fff;}
+                            }
+
+
+
+
+
+
+              @media (min-width:1099px) {
+                     /*footer*/
+                     footer {width:100%; height:500px; background-color: #1a1a1a; margin:0 auto;}
+                     footer > .end {width:100%; height: 85%; background-color: #1a1a1a; margin:0 auto; display: flex; justify-content:space-evenly; align-items: center; padding: 30px 0px 0px 0px; box-sizing: border-box;}
+                     footer > .end > .box4,.box5,.box6,.box7 { width: 240px; height: 350px;}
+                     footer > .end > .box4,.box5,.box7 {display: flex; flex-flow:column wrap;}
+             
+             
+                     footer > .end > .box4 > h3 {color: #fff; font-size: 20px; margin: 0px 0px 40px;}
+                     footer > .end > .box4 > p {line-height: 25px; color: #ccc;}
+                     footer > .end > .box5 > h3 {color: #fff; font-size: 20px; margin: 0px 0px 40px;}
+                     footer > .end > .box6 > h3 {color: #fff; font-size: 20px; margin: 0px 0px 40px;}
+                     footer > .end > .box7 > h3 {color: #fff; font-size: 20px; margin: 0px 0px 40px;}
+                     footer > .end > .box7 > p {line-height: 25px; color: #ccc; margin: 0px 0px 23px;}
+                     footer > .end > .box7 > .btn1 {width: 240px; height: 56px; background-color: #363636; border:none; border-radius: 3px; margin: 0 0 10px; color:#ccc; font-size: 18px;}
+                     footer > .end > .box7 > .btn2 {width: 240px; height: 56px; background-color:#e52b34; border:none; border-radius: 3px; color:#fff; font-size: 18px;}
+             
+             
+                     footer > .end > .box5 > table { margin:0px 0px 0px 0px;}
+                     footer > .end > .box5 > table th { line-height: 30px; float: left; color: #ccc;}
+                     footer > .end > .box5 > table td { float:right; line-height: 30px; color: #ccc;}
+             
+                     footer > .end > .box4 > ul > li {width: 40px; height: 40px; background-color: #e52b34; float: left; margin: 40px 7px 0px 0px; border-radius: 40px; display: flex; justify-content: center; align-items: center;}
+                     footer > .end > .box4 > ul > li > a > img {width: 19px; height: 20px; }
+             
+                     footer > .end > .box6 > .back1,.back2,.back3 {width:80px; height: 110px; float: left; margin:0px 0px 0px 0px;}
+                     footer > .end > .box6 >.back4,.back5,.back6 {width:80px; height: 110px; float: left;}
+             
+                    footer > .end > .box6 > .back1 {background-image: url("https://preview.colorlib.com/theme/tasteit/images/insta-1.jpg.webp"); background-position:center;
+                    background-size: cover;}
+                    footer > .end > .box6 > .back2 {background-image: url("https://preview.colorlib.com/theme/tasteit/images/insta-2.jpg.webp"); background-position:center;
+                    background-size: cover;}
+                    footer > .end > .box6 > .back3 {background-image: url("https://preview.colorlib.com/theme/tasteit/images/insta-3.jpg.webp"); background-position:center;
+                    background-size: cover;}
+                    footer > .end > .box6 > .back4 {background-image: url("https://preview.colorlib.com/theme/tasteit/images/insta-4.jpg.webp"); background-position:center;
+                    background-size: cover;}
+                    footer > .end > .box6 > .back5 {background-image: url("https://preview.colorlib.com/theme/tasteit/images/insta-5.jpg.webp"); background-position:center;
+                    background-size: cover;}
+                    footer > .end > .box6 > .back6 {background-image: url("https://preview.colorlib.com/theme/tasteit/images/insta-6.jpg.webp"); background-position:center;
+                    background-size: cover;}
+                    
+             
+             
+                    footer > .end2 {width:100%; height: 15%; background-color: #e52b34; display: flex; justify-content: center; align-items: center;}
+                    footer > .end2 > p {color: #fff;}
+                     }
+
+
+
+
+                     @media (min-width:1100px) {
+                            /*footer*/
+                            footer {width:100%; height:500px; background-color: #1a1a1a; margin:0 auto;}
+                            footer > .end {width:1100px; height: 85%; background-color: #1a1a1a; margin:0 auto; display: flex; justify-content:space-evenly; align-items: center; padding: 30px 0px 0px 0px; box-sizing: border-box;}
+                            footer > .end > .box4,.box5,.box6,.box7 { width: 240px; height: 350px;}
+                            footer > .end > .box4,.box5,.box7 {display: flex; flex-flow:column wrap;}
+                    
+                    
+                            footer > .end > .box4 > h3 {color: #fff; font-size: 20px; margin: 0px 0px 40px;}
+                            footer > .end > .box4 > p {line-height: 25px; color: #ccc;}
+                            footer > .end > .box5 > h3 {color: #fff; font-size: 20px; margin: 0px 0px 40px;}
+                            footer > .end > .box6 > h3 {color: #fff; font-size: 20px; margin: 0px 0px 40px;}
+                            footer > .end > .box7 > h3 {color: #fff; font-size: 20px; margin: 0px 0px 40px;}
+                            footer > .end > .box7 > p {line-height: 25px; color: #ccc; margin: 0px 0px 23px;}
+                            footer > .end > .box7 > .btn1 {width: 240px; height: 56px; background-color: #363636; border:none; border-radius: 3px; margin: 0 0 10px; color:#ccc; font-size: 18px;}
+                            footer > .end > .box7 > .btn2 {width: 240px; height: 56px; background-color:#e52b34; border:none; border-radius: 3px; color:#fff; font-size: 18px;}
+                    
+                    
+                            footer > .end > .box5 > table { margin:0px 0px 0px 0px;}
+                            footer > .end > .box5 > table th { line-height: 30px; float: left; color: #ccc;}
+                            footer > .end > .box5 > table td { float:right; line-height: 30px; color: #ccc;}
+                    
+                            footer > .end > .box4 > ul > li {width: 40px; height: 40px; background-color: #e52b34; float: left; margin: 40px 7px 0px 0px; border-radius: 40px; display: flex; justify-content: center; align-items: center;}
+                            footer > .end > .box4 > ul > li > a > img {width: 19px; height: 20px; }
+                    
+                            footer > .end > .box6 > .back1,.back2,.back3 {width:80px; height: 110px; float: left; margin:0px 0px 0px 0px;}
+                            footer > .end > .box6 >.back4,.back5,.back6 {width:80px; height: 110px; float: left;}
+                    
+                           footer > .end > .box6 > .back1 {background-image: url("https://preview.colorlib.com/theme/tasteit/images/insta-1.jpg.webp"); background-position:center;
+                           background-size: cover;}
+                           footer > .end > .box6 > .back2 {background-image: url("https://preview.colorlib.com/theme/tasteit/images/insta-2.jpg.webp"); background-position:center;
+                           background-size: cover;}
+                           footer > .end > .box6 > .back3 {background-image: url("https://preview.colorlib.com/theme/tasteit/images/insta-3.jpg.webp"); background-position:center;
+                           background-size: cover;}
+                           footer > .end > .box6 > .back4 {background-image: url("https://preview.colorlib.com/theme/tasteit/images/insta-4.jpg.webp"); background-position:center;
+                           background-size: cover;}
+                           footer > .end > .box6 > .back5 {background-image: url("https://preview.colorlib.com/theme/tasteit/images/insta-5.jpg.webp"); background-position:center;
+                           background-size: cover;}
+                           footer > .end > .box6 > .back6 {background-image: url("https://preview.colorlib.com/theme/tasteit/images/insta-6.jpg.webp"); background-position:center;
+                           background-size: cover;}
+                           
+                    
+                    
+                           footer > .end2 {width:100%; height: 15%; background-color: #e52b34; display: flex; justify-content: center; align-items: center;}
+                           footer > .end2 > p {color: #fff;}
+                            }
+
+
